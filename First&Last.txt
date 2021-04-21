@@ -1,0 +1,49 @@
+1st round:(Technical)
+  1.what is oops..features of oops?
+  2.diffrence between abstraction and encapsulation?
+  2.diffference bet static initialiser and static block?
+  3. What is  exception handling?
+  4. what happen if we throw exception in finally block?
+  5. order of writing exception?
+  6. project related questions
+  7.2 logical puzzles they have asked
+  8. difference of spring mvc and boot
+  9.annotation used in project?
+  10.they asked me about userdefined exception(in ptoject)
+  11. difference between PK and FK
+  12. diff between stored procedure and function
+  13 types of function
+  14. Types of data structure?diff between stack and queue
+  14.what is closure in javascript?
+  15. SDLC model? which model you have used in your project?
+  16. filters in .NET?
+  17. spring mvc flow? what is routing?
+  18. what are the leadership qualities you have?and how you will update yourself with new technology?
+  
+   
+2nd round:
+   1.describe project?
+   2.then project related question(about map integration)
+   3.what is JVM?
+   4. what happen if we pass argument to jvm?
+   5.new features added in java?they asked me about stream api(filter and map method)
+   6. what is lambda expressions?
+   6. what is garbage collector?what new added in GC after 1.7 version?
+   7.what is JUnit?
+   8. what are the implicit object in jsp
+   9. what is serialisation and which methods we have to override if we use serialisable interface(it is marker interface)
+   10.why spring boot? and what is advantage over spring mvc?
+   11. how will you change server in spring boot?
+   12.what is docker?
+   13. difference between abstract and interface?
+   14. some questions on Git?
+ 
+3 round(HR)
+   1. how was your interview(1st and 2nd round)?
+    2. what you know about morning star?and when you first time heard about morning star?
+    3. why morningstar?
+    4. asked me about project(just intro)
+    4. what you learn in CDAC?
+    5. what are your interest other than technical?
+    6.  strengths?
+    7. do you have any questions for me?

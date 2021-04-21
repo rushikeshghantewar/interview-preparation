@@ -1,0 +1,88 @@
+1.what is the Difference between C++ and java ? 
+-->	Java is platform independent , c++ is pltform dependent
+	In c++ pointers are allow but java have restricted pointer suppourt
+	c++ suppourt multiple inheritance but java dont suppourt through class but by interfaces
+	c++ mainly used for system programing , java used for application programing.
+
+ 
+2.What are the key features of java?
+	Java is platform independant because it uses software based platform to run.
+	java is robust
+	java is object oriented programing
+	java is secure as it uses its own runtime environment.
+	java is multithreaded , portable , dynamic 
+
+3.What is JVM ?
+	JVM is a component of JRE which executes bytecode and convert it to machine code.
+
+4.what is oops?why it called as object oriented?
+	oops means object oriented programing which implements real-world entity
+	there are 4 pillars such as Inheritance in which parent class properties are extends in child class
+	polymorphism a single method having multiple forms. Its is obtained by metho overloading and method overriding
+	abstraction hiding the details and showing essential things i.e mobile call.
+	encapsulation binding the functions and data together as a single unit.
+
+5.what is Multiple inheritance?Explain with real time and in a programmic way?
+	a child class which have properties of more than one parent class at same time
+	suppose in cricket there is 3 formats ODI Test and T20 so one playesr has properties of all 3 formats
+	
+
+6.Difference between abstract class and interface
+	abstract class does not suppourt multiple inheritance but interface does suppourt,
+	abstract have abstract and non-abstract methods were interface only have abstract method until java7 since 8 it also suppourt static and non static methods since java9 private methods
+	abstract class can have multiple interface and single class but interface implements only interface
+	
+
+7.What is Encapsulation?Explain with real time example?
+	Encapsulation is binding the methods and data in single unit,
+	java class is an example of encapsulation where methods and data bind as single unit.
+
+8.what is Polymorphism? and inheritnce?
+	a method having multiple forms is called polymorphism. it can be done by 
+	parent class properties are obtained by any child class is called inheritance.
+
+9.What is Method Overriding and Method Overloading ?explain with program?
+	method overloading in which the name of the method remain same but no of arguments and data type of an method can be change ex: void run() String run (String a)
+	method overriding in which method is override by child class and should have same name and same parameter as parent class ex: class a{void run(){}} class b extends a{ void run(){} psvm() b obj = new b; obj.run;}
+
+10.what is collection?what's its need? if we are having array?
+	collection is a single unit of object . java collections framework have many interfaces and classes.
+	collection is an interface that is directly implementable and provide architecture to ease of code 
+	in array we have to set its length it is pre determined and static but in collection the data structures no need to set size they are dynamic	
+
+11.diffrence between array and arraylist? any programmetical difference?
+	arraylist uses collection framework properties but arrya cant use those property.
+	array can be of primitive data type and non primitive data type,  arraylist is not created for primitive data type
+	array have definite lenght but arrayslist undefinite
+	ArrayList<Integer> arr = new ArrayList<>();
+	int [] arr1 = new int[3];
+
+12.Difference between list and arraylist 
+	list store the elements in sequential order but arraylist stores at random
+	by using index we can travers in list , there is no index in arraylist
+	list is an interface , array list is a class.
+
+13.Explain Exception handling and how it is handled?
+	an error which can be handled and continues the flow of program is called exception handling.
+	it is done by try catch block
+
+14.What is garbage collection?
+	grabage collection is an automatic memory managment property of java in which the object which is not used for long time is collected and free up the memory space for program
+
+15.Explain Public static void main()?
+	Public is an access modifier , static is keyword to relate it with class, void is keyword and states it doesn't return anyhing and main() is to understand JVM i.e it is the starting point of program 
+
+16.write a program to concat two arraylist if we are having first arraylist of 5 students firstname and then second arraylist of having five student lastname.then how we can concat first student firstname and lastname and others also.
+
+
+17.Write a program to reverse a String contents.
+
+
+18.write a program to check anagram of string.
+
+
+19.Do you Know any versioning tool?explain it?
+	yes i know one of the vesioning tool is Git where it stores changes to source code by making branches to the source code in software development teams.
+
+20.what is RestApi?Have you used it in your project? and explain how you used it?
+	representational state transfer aplication programing interface which uses subset of HTTP to call web services. In project we havent used restapi.

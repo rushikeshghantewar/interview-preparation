@@ -1,0 +1,220 @@
+Q.What is OOPs and what re OOPs concept?
+->OOPs :
+ Object Oriented Programming System is a methodology to design a programm usig classes and objects.
+ It simplifies software development and maintainance by providing some concepts :
+ 
+ 1) ABSTRACTION :
+	Hiding internal implementation and showing only main functionality to end users means abstraction.
+	e.g :
+	 i) ATM GUI screen.
+	  Bank only highlighted several services but they never highlighted internally how that services implemented.
+	 ii)programming e.g : toString() in java or any inbuilt method in any oops language.
+    
+	ADVANTAGES : Security,Enhancement,Maintainability,Modularity
+ 
+ 2) ENCAPSULATION :
+	Grouping data members and methods in single unit is ENCAPSULATION. OR
+	If any component follows data hiding and abstraction is called ENCAPSULATION.
+	e.g :
+	i)every java class is concept of ENCAPSULATION.
+	
+	ADVANTAGES : Security,Enhancement,Maintainability,Modularity
+	DISADVANTAGES : Time consuming,length of the code increases because validation required.
+	
+ 3)INHERITANCE :
+	
+	Whatever members parent has it may be variable , 
+	it may be methods by default available to child is the concept of INHERITANCE. OR
+	Acquiring the properties of of existing class in derived class means INHERITANCE.
+	
+	e.g any class in java is inherited by Object Class and so able to access it's methods.
+	
+ 4)POLYMORPHISM :
+   'POLY' means many 'MORPHS' means forms.
+   Performing single task by different ways means POLYMORPHISM.
+   
+   e.g :
+   i)Same pen can be used for writing purpose, for paper weigth and also to wrap hair.
+   ii)append method of String Class.
+   
+ 5)Object : 
+	Object is an real time entity which has state and behavior or it is a implementation of class.
+	e.g : Duster : State= color,body type
+				   Behaviour= clear board, paper weigth, for throwing purpose 
+ 
+ 6)Class :
+	Class is a blueprint or prototype from which objects are created.
+   
+ Q.What is JVM, JRE and JDk?
+ ->	1.JVM [JAVA VIRTUAL MACHINE]:
+   i)JVM is an interpreter which is responsible to run java bytecode line by line.
+   ii)It is required to convert bytecode to machine specific code for execution. 
+   iii)It is virtually present on your software or hardware.
+   iv)JVM requires library files during  execution of code. 
+   v)JVM is platform dependent and  for each software and hardware we have different jvm configuration.
+   vi)It does not exist physically. It is abstract in nature.It provides runtime environment.
+   vii)Task Of JVM :
+		a)Loads code
+		b)Verify code
+		c)executes code 
+		d)provides runtime environment
+		
+   2.JRE [JAVA RUNTIME ENVIRONMENT] :
+	i)To run java application JRE is responsible and it is need to install on client machine.
+	ii)It is a combination of JVM and libraries set.
+	iii)It is the implementation of JVM. Whenever JVM executes the java program it required libraries,
+	     that's why it is said as implementation of JVM.
+	iv)JRE exists physically and it is platform dependent.
+	v)To run code it required a .class file.
+	
+	3.JDK [JAVA DEVELOPMENT KIT] :
+		i)It provides runtime environment to develop and run java application.
+		ii)It is platform dependent and exists physically.
+		iii)It is installed on developer's machine and it containes development tools like debugger, compiler, executer and so on.
+		iv)It is the combination of JRE and development tools.
+		v)It is full featured software development kit. And so JDK is complete package for any java application development.
+		vi)JVM is required to create, debug, compile java file.
+ 
+Q.What is difference between CPP and JAVA?
+->
+i)c++ is platform dependent whereas java is platform independent.
+ii)c++ is mainly used for system programming whereas java is used for application programming.
+iii)c++ supports multiple inheriatnce and java doesn't support multiple inheriatnce in case of class but it can be achieved through interface.
+iv)c++ supports operator overloading and java doesn't support operator overloading.
+v)c++ supports both call by value and call by reference and Java supports call by value only. There is no call by reference in java.
+vi)c++ supports virtual keyword so that we can decide whether or not override a function.Java has no virtual keyword. We can override all non-static methods by default. 
+   In other words, non-static methods are virtual by default. 
+   
+Q.Which is ultimate base class in java class hierarchy?List the name of methods of it?
+->
+i)Object Class is ultimate base class for java class.
+ii)It has 9 methods :- 
+    public String toString(), 
+	public boolean equals(),
+	public native int hashcode(),
+	protected native Object clone() throws CloneNotSupportedException,
+	protected void finalize() throws Throwable,
+	public final Class getClass(),
+	public final void wait() throws InterruptedException,
+	public final native void wait(long ms) throws InterruptedException,
+	public final void wait(long ms, int ns) throws InterruptedException,
+	public native final void notify(),
+	public native final void notifyAll()
+
+Q.How will you print "Hello CDAC" Statement  on screen, without semicolon?
+->
+  if(sopln("Hello CDAC" )){}
+ 
+Q.In System.out.println(),what is the meaning of every word?
+->
+  i)System is a class present in java.lang package.
+  ii)out is a static member of the System class & is an instance of java.io.PrintSream class.
+  iii)Prinln() is a method present in PrintStream class.
+  e.g
+	class System
+	{
+		public static final PrintStream out;
+	}
+	class PrintStream
+	{
+	  public void println(){}
+	}
+
+Q.what is difference between final, finally and finalize()?
+->
+1.final :
+	i)Final is a modifier applicable for classes , methods and variables.
+	ii)If a class declared as a final we can’t extend that class i.e. we can’t create child class for that class
+	i.e. inheritance is not  possible for final classes.
+	iii)If a method is final then we can’t override that method in child class
+	iv)If a variable declared as final , we can’t perform reassignment for that variable.
+
+2.finally
+	i)finally is a block always associated with try-catch to maintain cleanup code. 
+	ii)The speciality of finally block is it will be executed always irrespective whether exception is raised  or whether handled or not handled.
+    iii)e.g
+		try{
+			Risky code
+		}catch(Exception e){
+			Handling code
+			}
+		finally{
+			Cleanup code
+			}
+
+3.finalize()
+	i)Finalize is a method always invoked by GC just before destroying an object to perform claenup activities.
+	ii)Once finalize() completes immedaitely Gc destroys that object.
+
+ Q.What is the difference between throw and throws?
+ ->
+ 1)throw :
+	i)It explicitly throw exception
+	ii)throw keyword id followed by instance
+	iii)used within method
+	iv)e.g throw new ArithmaticException(“divide by zero”);
+
+2)throws :
+	i)It declares an exception
+	ii)throws keyword is followed by class
+	iii)Used with method signature
+	iv)public static void main(String args[]) throws IOException{}
+
+Q.What is the difference between abstract class and interface?
+->
+	1)Abstract Class :
+		i)It uses abstract keyword to specify abstract class.An abstract class can have abstract as well as instance method.
+		ii)If we don't want to create object of a class then we should go for abstract class.It is semiconstruct or semiconcrete class.
+		iii)For inheriting abstract class 'extends' keyword is used.It can have final, non-final variables.
+		iv)It doesn't support multiple inheritance.
+		v)An abstract class can extends another java class and implements multiple interfaces.
+		vi)An abstract class also can't be instantiated(object creation) but we can have reference of abstract class.
+	    viii)It can have constructor.
+	2)Interface :
+		i)It uses interface keyword to specify interface.An interface can have only abstract methods.
+		ii)It provides 100% abstraction and we use interface for SRS(Software Requirement Specification).
+		iii)For inheriting interface 'implements' keyword is used.It can have only public static final variables.
+		iv)It support multiple inheritance.
+		v)An interface can extends another interface.
+		vi)An interface can't be instantiated(object creation) but we can have reference of interface.
+		vii)Interface can't have constructor.
+
+
+Q.Difference between '==' operator and equals()?
+->
+	1)'==' :
+		i)It is an operator in java applicable for both object and primitive types.
+		ii)In the case of object reference == operator also meant for reference comparison(address).
+		iii)We can’t override == for content comparison.
+		iv)To use == operator compulsory there  should be  some relation between arguments type(either parent-child or child – parent or same type) otherwise we will get CE saying IncomparableTypes.
+		
+	2)equals() :
+		i)It is an method in java applicable only for  object types.
+		ii)By default equals() present in Object class also meant for reference comparison.
+		iii)We can override equals() for content comparison.
+		iv)If there is no relation between arguments types , then equals() won’t rise any compile time error or runtime exception, simply returns false.
+
+Q.What is the contract Between equals() and hashCode()?
+->
+	i)If two objects are equal by equals(), then their hashcode must be equal 
+	i.e two equivalent objects should have same bucket i.e if r1.equals(r2) is true then r1.hashcode == r2.hashcode is always true.
+	ii)Object class equals() and hashCode() follows the above contract. Hence whenever we are overriding equals(), compulsory we should override hashCode() to satisfy the above contract.
+	   [i.e two equivalent objects should have same hashcode].
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+	

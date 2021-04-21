@@ -1,0 +1,58 @@
+1) How to Print duplicate characters from String?
+For example, if String is "Java" then the program should print "a". 
+Bonus points if your program is robust and handles different kinds of 
+input e.g. String without duplicate, null or empty String etc. 
+Bonus points if you also write unit tests for normal and edge cases.
+
+
+2) How to check if two Strings are anagrams of each other?
+example,  Army and Mary are an anagram of each other.
+
+
+3) How to program to print first non repeated character from String? 
+for example, if given String is "Morning" then it should print "M". 
+This question demonstrates the efficient use of the hash table data structure.
+
+
+4) How to reverse String in Java using Iteration and Recursion?
+
+5) How to check if a String contains only digits?
+
+6) How to find duplicate characters in a String?
+For example, if given String is "Programming" then your program should print
+g : 2
+r : 2
+m : 2
+
+7) How to count a number of vowels and consonants in a String?
+For example, if the input is "Java" then your program should print "2 vowels and 2 consonants".
+
+8) How to count the occurrence of a given character in String?
+for example, if input String is "Java" and given character is 'a' then it
+ should return 2. Bonus point if you handle case, null and empty 
+String and come up with unit tests.
+
+
+9) How to convert numeric String to an int?
+For example, if you pass "67263" to the program then it should return 67263.
+
+10) How to replace each given character to other e.g. blank with %20?
+example, if the input is "Java is Great" and asked to replace space with %20 then it should be "Java%20is%20Great".
+
+11) How to find all permutations of String?
+for example, if the input is "xyz" then it should print "xyz", "yzx", "zxy", "xzy", "yxz", "zyx"
+
+12) How to reverse words in a sentence without using a library method?
+for example if the input is "Java is best programming language", the output should be "language programming best is Java".
+
+13) How to check if String is Palindrome? 
+
+
+14) How to remove duplicate characters from String?
+
+
+
+
+
+
+

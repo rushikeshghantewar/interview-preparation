@@ -1,0 +1,134 @@
+css
+
+1) What are the Pseudo classes?
+2) What is CSS?
+3) What are the advantages of CSS?
+4) In how many ways can a CSS be integrated as a web page?
+5) What benefits and demerits do External Style Sheets have?
+6) Discuss the merits and demerits of Embedded Style Sheets?
+7) What is CSS Box Model and what are its elements?
+8) What is the purpose of the z-index and how is it used?
+9) What are the benefits of CSS sprites?
+10) How can you integrate CSS on a web page?
+11) Compare RGB values with Hexadecimal color codes?
+12) Enlist the various Media types used?
+13) What is Pseudo-elements?
+14) What is the usage of Class selector?
+15) Enlist the various fonts’ attributes?
+16) Comment on the Case-sensitivity of CSS ?
+17) Enlist the media types CSS allows?
+18) Differentiate logical tags from physical tags?
+19) Differentiate Style Sheet concept from HTML?
+20) Describe ‘rule set’?
+21) What are the limitations of CSS?
+22) What are the different versions of CSS?
+
+html5
+
+1) What is HTML5 ?
+2) List out the new features of HTML5?
+3) List out the advantages of HTML5 ?
+4) What is HTML5 Geolocation?
+5) What is the use of LocalStorage in HTML5 ?
+6) What is use of 'canvas' tag in HTML5?
+7) What are web workers in HTML5?
+8) What are the rules established for HTML5 ?
+9) What is MathML in Html5?
+10) Is HTML5 tags are case sensitive?
+11) What is Canvas in HTML5 ? How to write a Canvas ?
+12) What use of the article tag in HTML5?
+13) What is Graphics in HTML5?
+14) What are Server-Sent Events in HTML5?
+15) What is Microdata in HTML5?
+16) List different types of API's available in HTML5?
+17) List some new tags introduced in HTML5?
+18) List some tags that are removed completely from HTML5?
+19) What is < !DOCTYPE>? Is it necessary to use in HTML5 ?
+20) What is the sessionStorage Object in HTML5 ? How to create and access?
+21) What is the difference between Html5 application cache and regulate Html browser cache?
+22) What are the new Apis provided by the Html5 standard? Give a brief description of each
+23) Can you list the new input type attributes in HTML5 ?
+24) What is header and footer in HTML5?
+
+html
+
+1) what is multipart form data?
+2) What is HTML and what is it used for?
+3) What does HTML stand for?
+4) In which year HTML was first proposed?
+5) Who is the author of HTML?
+6) What is the meaning of markup in HTML?
+7) What is a physical tag and logical tag in HTML?
+8) What is a nest in HTML?
+9) What is the XHTML?
+10) What isCell Spacing and Cell Padding?
+11) What is the HTML tags?
+12) What is an element in HTML?
+13) How many types of lists are available in HTML?
+14) How to create mailto link in HTML?
+15) What does DOCTYPE mean?
+16) List the media types and formats supported by HTML ?
+17) What are different types of heading are supported by HTML?
+18) What is Semantic HTML ?
+19) Who is Known as the father of World Wide Web (WWW)
+20) What is the difference between a tag and an element in HTML?
+21) What is grouping in HTML?
+22) What is a Fieldset in HTML ?
+23) What is the difference between DIV and SPAN in HTML?
+24) What is the use of div tag in HTML?
+25) What is a block element?
+
+
+Bootstrap
+
+1) Explain What is Bootstrap?
+2) What are the key components of Bootstrap?
+3) What is a Bootstrap Container?
+4) Enlist few alternative of Bootstrap?
+5) What is Bootstrap Navbar?
+6) What are Bootstrap alerts?
+7) What do you mean by Bootstrap well?
+8) Why do we use Bootstrap Carousel plugin?
+9) Enlist major Typography Classes available in bootstrap?
+10) Explain why you prefer Bootstrap for website development?
+11) How many types of layout are available in Bootstrap?
+12) Why do we use Jumbotron in Bootstrap?
+13) Explain the two codes that are used for code display in Bootstrap?
+14) What do you mean by Bootstrap collapsing elements?
+15) What is the role of the media objects in Bootstrap and how many types are available?
+16) What is the role of pagination in bootstrap and what are their classifications?
+17) How can you differentiate between Bootstrap and Foundation?
+18) What is the step-wise procedure for creating basic or vertical forms?
+19) What is the procedure to create Nav elements in Bootstrap?
+20) What is a list group in Bootstrap and where does it finds its application?
+21) What do you mean by Modal plugin that is used for in Bootstrap?
+22) What do you mean by column ordering in Bootstrap?
+23) What is the most appropriate function to wrap the page content?
+
+
+
+javaScript
+
+1) Explain what is Javascript?
+2) What close() does in Javascript?
+3) What is the difference between let and var?
+4) Explain Closures in JavaScript?
+5) Explain JavaScript Event Delegation Model?
+6) Describe negative infinity in JavaScript?
+7) Explain function hoisting in JavaScript?
+8) What is the use of let & const in JavaScript?
+9) Explain Arrow functions?
+10) What are exports and imports?
+11) What is difference between module.exports and export?
+12) How to import all exports of a file as an object.
+13) Explain “use strict” ?
+14) Explain Event bubbling and Event Capturing in JavaScript?
+15) In Javascript are calculations with fractional numbers guaranteed to be precise?
+16) List the comparison operators supported by Javascript?
+17) How do you declare variables in Javascript?
+18) What will happen if an infinite while loop is run in Javascript?
+19) List HTML DOM mouse events?
+20) How to get the last index of a string in Javascript?
+21) How to get the primitive value of a string in Javascript?
+
+

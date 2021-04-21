@@ -1,0 +1,44 @@
+CoreJava
+===========
+1. Which is ultimate base class in java class hierarchy? List the name of methods of it?
+
+2. Explain narrowing and widening?
+
+3. Explain the difference among final, finally and finalize?
+
+4. Explain the difference among checked and unchecked exception?
+
+5. Explain exception chaining?
+
+6. What do you know about final method?
+
+7. Why java does not support multiple implementation inheritance?
+
+8. Explain marker interface? List the name of some marker interfaces?
+	Explain the significance of marker interface?
+	
+9. Explain the difference among Array and ArrayList?
+
+10. Explain the difference among Hash Table and Hash Map?
+
+11. Explain the difference among HashSet and Hash Map?	
+================================================================
+AdvJava
+==========
+
+1. What do you mean by Dependency Injection? In how many ways can Dependency Injection be done?
+2. What is Spring IOC Container? List some of the benefits of IoC.
+3. What’s the difference between @Component, @Controller, @Repository & @Service annotations in Spring?
+4. What is the use of JDBC DriverManager class?
+5. What is the difference between execute, executeQuery, executeUpdate?
+6. How does Cookies work in Servlets?
+7. What are the advantages of Hibernate over JDBC?
+8. What are the differences between a primary key and a foreign key?
+9. Explain Joins ?
+10. Explain lifecycle of a JSP?
+11. explain lifecycle of a servlet?
+12. What are different types of JDBC Drivers?
+13. What is the difference between GET and POST method?
+14. explain what we mean by an ACID transaction
+15. What are relationships and mention different types of relationships in the DBMS
+16. What are the different types of keys in the database?
